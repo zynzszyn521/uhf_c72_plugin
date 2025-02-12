@@ -24,6 +24,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.amorenew.c72.uhf_plugin"
     compileSdkVersion 33
 
     defaultConfig {
